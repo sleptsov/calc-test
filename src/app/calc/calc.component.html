@@ -1,0 +1,79 @@
+<div class="row justify-content-center align-items-center h-100">
+  <div class="col-sm-12 col-lg-6 cl-box pt-3 pb-1">
+    <div class="row mb-3">
+      <div class="col-12">
+        <textarea class="form-control" rows="8" [ngModel]="history" placeholder="History"></textarea>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-12">
+        <input type="text" [ngModel]="calcDisplay" class="form-control" placeholder=".0">
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-3">
+        <button type="button" #reset class="btn btn-outline-secondary w-100">AC</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #negative class="btn btn-outline-secondary w-100">&#43;/&#8722;</button>
+      </div>
+      <div class="col-6"></div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="7">7</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="8">8</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="9">9</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #operation class="btn btn-outline-secondary w-100" value="/">&#247;</button>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="4">4</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="5">5</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="6">6</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #operation class="btn btn-outline-secondary w-100" value="*">&#215;</button>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="1">1</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="2">2</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="3">3</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #operation class="btn btn-outline-secondary w-100" value="-">&#8722;</button>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-3">
+        <button type="button" #num class="btn btn-outline-secondary w-100" value="0">0</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #dot class="btn btn-outline-secondary w-100" value=".">.</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #result class="btn btn-outline-secondary w-100">=</button>
+      </div>
+      <div class="col-3">
+        <button type="button" #operation class="btn btn-outline-secondary w-100" value="+">&#43;</button>
+      </div>
+    </div>
+  </div>
+</div>

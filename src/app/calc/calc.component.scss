@@ -1,0 +1,21 @@
+.cl-box {
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+
+    textarea {
+        resize: none;
+        overflow-y: scroll;
+        text-align: right;
+        font-weight: 500;
+    }
+
+    input {
+        text-align: right;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-weight: 600;
+    }
+}
